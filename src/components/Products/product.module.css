@@ -1,0 +1,15 @@
+.product__all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.single__product {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.product__container {
+    margin: 25px;
+}
